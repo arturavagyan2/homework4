@@ -113,7 +113,7 @@ const forEach=function (arr, functionval){
 };
 sum([4, 3, 2]);
 //#6
-function reverse(str) {
+const reverse = function(str) {
   let len = str.length;
   let a = "";
   while (len != 0) {
@@ -124,7 +124,7 @@ function reverse(str) {
 };
 reverse('abcd');
 //#7
-function checkerboard(num) {
+const checkerboard = function(num) {
   let a = num;
   let b = 1;
   let str = "";
