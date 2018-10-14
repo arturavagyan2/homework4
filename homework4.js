@@ -56,7 +56,7 @@ const multiToSingle = function (array) {
 
 multiToSingle([[1, 2, 3], [4, 5, 6]]);
 //#3
-function findMinMax(arr, boolean) {
+const findMinMax = function(arr, boolean) {
   if (boolean === true) {
     let length = arr.length;
     let a = 0;
